@@ -104,6 +104,7 @@
       "tag":"OpenAI",
       "type":"selector",
       "outbounds":[
+        "Proxy",
         "TaiWan",
         "Singapore",
         "Japan",
@@ -116,49 +117,56 @@
       "tag":"Google",
       "type":"selector",
       "outbounds":[
+        "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
         "Japan",
         "America",
         "Others"
-      ]
+      ],
+      "default": "Proxy"
     },
     {
       "tag":"Telegram",
       "type":"selector",
       "outbounds":[
+        "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
         "Japan",
         "America",
         "Others"
-      ]
+      ],
+      "default": "Proxy"
     },
     {
       "tag":"Twitter",
       "type":"selector",
       "outbounds":[
+        "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
         "Japan",
         "America",
         "Others"
-      ]
+      ],"default": "Proxy"
     },
     {
       "tag":"Facebook",
       "type":"selector",
       "outbounds":[
+        "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
         "Japan",
         "America",
         "Others"
-      ]
+      ],
+      "default": "Proxy"
     },
     {
       "tag":"BiliBili",
@@ -181,6 +189,7 @@
       "tag":"Spotify",
       "type":"selector",
       "outbounds":[
+        "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -194,6 +203,7 @@
       "tag":"TikTok",
       "type":"selector",
       "outbounds":[
+        "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -206,6 +216,7 @@
       "tag":"Netflix",
       "type":"selector",
       "outbounds":[
+        "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -218,6 +229,7 @@
       "tag":"Disney+",
       "type":"selector",
       "outbounds":[
+        "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -231,6 +243,7 @@
       "type":"selector",
       "outbounds":[
         "direct",
+        "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -250,7 +263,8 @@
         "Japan",
         "America",
         "Others"
-      ]
+      ],
+      "default": "direct"
     },
     {
       "tag":"Games",
@@ -263,7 +277,8 @@
         "Japan",
         "America",
         "Others"
-      ]
+      ],
+      "default": "direct"
     },
     {
       "tag":"Streaming",
@@ -281,6 +296,7 @@
       "tag":"Global",
       "type":"selector",
       "outbounds":[ 
+        "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -288,7 +304,8 @@
         "America",
         "Others",
         "direct"
-      ]
+      ],
+      "default": "Proxy"
     },
     {
       "tag":"China",
